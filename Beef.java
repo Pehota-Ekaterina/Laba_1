@@ -2,7 +2,7 @@ package Menu;
 
 import Instruments.Nutritious;
 
-public class Beef extends Product implements Nutritious {
+public class Beef extends Food implements Nutritious {
     public Beef(String preparedness) {
         super("Мясо");
         this.param = preparedness;

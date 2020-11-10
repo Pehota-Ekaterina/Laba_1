@@ -4,7 +4,7 @@ import Menu.*;
 
 public interface Nutritious {
 
-    static void calculateCalories(Product product) {
+    static void calculateCalories(Food product) {
 
         if(product instanceof Tea){
             if (product.getParam().equals("чёрный"))

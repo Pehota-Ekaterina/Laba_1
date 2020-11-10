@@ -2,7 +2,7 @@ package Menu;
 
 import Instruments.Nutritious;
 
-public class Tea extends Product implements Nutritious {
+public class Tea extends Food implements Nutritious {
 
     public Tea(String color) {
         super("Чай");
